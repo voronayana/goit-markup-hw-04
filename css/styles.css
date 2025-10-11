@@ -435,54 +435,83 @@ transform: translateY(0);
 
 /* footer*/
 
-.footer-container{ text-align: left; 
-display: flex; 
-justify-content: space-between; 
-align-items: flex-start; 
-flex-wrap: wrap; gap: 40px; } 
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
 
-.page-footer { 
-background-color: #2e2f42; 
-padding: 100px 0; 
-} 
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 264px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 
 .footer-link .logo-part {
-color: #f4f4fd; } 
-         
-.footer-link{ display: inline-block; 
-margin-bottom: 16px; 
-text-transform: uppercase; 
-color: #4d5ae5; 
-font-size: 18px; 
-text-decoration: none; } 
+  color: #f4f4fd;
+}
 
-.footer-info { 
-font-weight: 400; 
-font-size: 16px; 
-line-height: 1.5; 
-letter-spacing: 0.02em; 
-color: #f4f4fd; 
-} 
-/*.footer-wrapper { max-width: 264px; 
-display: flex; flex-direction: column; 
-align-items: flex-start; }*/ 
+.footer-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
 
 .footer-social {
- line-height: 1.16667; 
-letter-spacing: 0.03em; 
-text-transform: uppercase; 
-color: #f4f4fd; } 
-    
-.footer-left { 
-max-width: 264px; } 
-    
-.footer-link .logo-part { 
-color: #f4f4fd; } 
-    
-.footer-social { 
-display: flex; 
-flex-direction: column; 
-align-items: flex-start; } 
-    
-.footer-social .social-links { 
-justify-content: flex-start; }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social .social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms ease;
+}
+
+.social-icon {
+  fill: #f4f4fd;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
+}
