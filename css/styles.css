@@ -435,80 +435,54 @@ transform: translateY(0);
 
 /* footer*/
 
-.footer-container{
-text-align: left;
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-flex-wrap: wrap;
-gap: 40px;
-}
+.footer-container{ text-align: left; 
+display: flex; 
+justify-content: space-between; 
+align-items: flex-start; 
+flex-wrap: wrap; gap: 40px; } 
 
-.page-footer {
-background-color: #2e2f42;
-padding: 100px 0;
-}
+.page-footer { 
+background-color: #2e2f42; 
+padding: 100px 0; 
+} 
 
 .footer-link .logo-part {
-color: #f4f4fd;
-
-}
-
-.footer-link{
-display: inline-block;
-margin-bottom: 16px;
-text-transform: uppercase;
-color: #4d5ae5;
-font-family: "Raleway", sans-serif;
-font-weight: 700;
+color: #f4f4fd; } 
+         
+.footer-link{ display: inline-block; 
+margin-bottom: 16px; 
+text-transform: uppercase; 
+color: #4d5ae5; 
 font-size: 18px; 
-text-decoration: none;
-}
+text-decoration: none; } 
 
-
-.footer-info {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.footer-info { 
+font-weight: 400; 
+font-size: 16px; 
+line-height: 1.5; 
+letter-spacing: 0.02em; 
 color: #f4f4fd; 
-
-}
-
-/*.footer-wrapper {
-max-width: 264px;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-}*/
+} 
+/*.footer-wrapper { max-width: 264px; 
+display: flex; flex-direction: column; 
+align-items: flex-start; }*/ 
 
 .footer-social {
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-}
-
-.footer-left {
-  max-width: 264px;
-}
-
-.footer-link .logo-part {
-  color: #f4f4fd;
-}
-
-.footer-social {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-}
-
-/*
-.footer-info {
-line-height: 1.1667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-margin-bottom: 16px;  
-}
-*/
+ line-height: 1.16667; 
+letter-spacing: 0.03em; 
+text-transform: uppercase; 
+color: #f4f4fd; } 
+    
+.footer-left { 
+max-width: 264px; } 
+    
+.footer-link .logo-part { 
+color: #f4f4fd; } 
+    
+.footer-social { 
+display: flex; 
+flex-direction: column; 
+align-items: flex-start; } 
+    
+.footer-social .social-links { 
+justify-content: flex-start; }
