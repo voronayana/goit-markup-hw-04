@@ -247,15 +247,16 @@ flex-basis: calc((100% - 72px) / 4);
   
 }
 
-
-
-/*
-.info-section {
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
-  flex-wrap: wrap;  
-}*/
+.icon-box {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 64px;
+height: 64px;
+margin-bottom: 8px;
+background-color: #f4f4fd;
+border-radius: 8px;
+}
 
 /* hero секція 3*/
 
