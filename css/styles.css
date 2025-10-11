@@ -329,7 +329,6 @@ align-items: center;
 justify-content: center;
 flex-direction: row;
 gap: 24px;
-background-color: tomato;
 margin-left: 16px;
 margin-top: 8px;
 }
