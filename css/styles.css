@@ -321,20 +321,40 @@ display: flex;
 gap: 24px;
 }
 
+.social-links {
+display: flex;
+justify-content: center;
+gap: 24px;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
 .icon-social {
-width: 232px;
-height: 40px;
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: row;
 gap: 24px;
-margin-left: 16px;
 margin-top: 8px;
 }
 
-.icon-link {
- fill: #2e2f42;
+.social-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+background-color: #4d5ae5; 
+border-radius: 50%;        
+transition: background-color 0.3s ease;
+}
+.social-icon {
+ fill: #fff
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf; 
 }
 
 /* Our Portfolio секція 4*/
