@@ -330,6 +330,12 @@ justify-content: center;
 flex-direction: row;
 gap: 24px;
 background-color: tomato;
+margin-left: 16px;
+margin-top: 8px;
+}
+
+.icon {
+    background-color: #000;
 }
 
 /* Our Portfolio секція 4*/
