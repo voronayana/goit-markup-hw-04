@@ -116,10 +116,16 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.nav-link.current {
+   position: relative; 
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus
+.nav-link.current
+ {
 color: #404bbf;
 }
 
