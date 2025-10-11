@@ -321,6 +321,16 @@ display: flex;
 gap: 24px;
 }
 
+.icon-social {
+width: 232px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
+}
+
 /* Our Portfolio секція 4*/
 
 .portfolio-item {
