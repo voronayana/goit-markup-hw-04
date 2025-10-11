@@ -63,6 +63,7 @@ img {display: block;}
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .header-container {
@@ -114,18 +115,30 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.current {
    position: relative; 
 }
 
+.nav-link.current::after {
+  content: '';  
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  bottom: -1px;
+  border-radius: 2px;
+  background-color: #404bbf;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus
-.nav-link.current
- {
+.contacts-link:focus,
+.nav-link.current {
 color: #404bbf;
 }
 
@@ -141,19 +154,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 /*main секція 1*/
 
 .main-title {
-  background-color: #2e2f42;
+ background-color: rgba(46, 47, 66, 0.7);
   padding: 188px 0;
-/*  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;*/
- }
+  }
 
 .main-text {
 font-weight: 700;
@@ -190,13 +200,8 @@ border: none;
 background: #404bbf;
 }
 
-/*
-.hero-container {
-width: 1158px;
-padding: 0 15px;
-margin: 0 auto;
-}
-*/
+
+
 /*info секція 2*/
 
 
@@ -226,6 +231,15 @@ gap: 24px;
 flex-basis: calc((100% - 72px) / 4);
   
 }
+
+.main-container {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7)) 
+url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
 /*
 .info-section {
   display: flex;
