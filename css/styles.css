@@ -297,6 +297,12 @@ text-align: center;
 flex-basis: calc((100% - 72px) / 4);
 }
 
+.team-item:first-child {
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .team-name {
 font-weight: 500;
 font-size: 20px;
@@ -350,14 +356,17 @@ border-radius: 50%;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
- fill: #fff;
+/*fill: #fff;*/
+width: 16px;
+height: 16px;
+fill: var(--icon-color, #f4f4fd)
 }
 
-/*
+
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf; 
-}*/
+}
 
 .page-team .social-link:hover { background-color: #404bbf; }
 .page-footer .social-link:hover { background-color: #31d0aa; }
