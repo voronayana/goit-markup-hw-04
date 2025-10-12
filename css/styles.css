@@ -352,10 +352,14 @@ transition: background-color 0.3s ease;
  fill: #fff;
 }
 
+/*
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf; 
-}
+}*/
+
+.page-team .social-link:hover { background-color: #404bbf; }
+.page-footer .social-link:hover { background-color: #31d0aa; }
 
 /* Our Portfolio секція 4*/
 
@@ -527,7 +531,3 @@ transform: translateY(0);
   fill: #f4f4fd;
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: #31d0aa;
-}
