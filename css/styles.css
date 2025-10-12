@@ -166,11 +166,13 @@ color: #434455;
 .main-title {
 background-color: rgba(46, 47, 66, 0.7);
 padding: 188px 0;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-url(../images/people-office.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                  url(../images/people-office.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
   }
 
 .main-text {
@@ -188,7 +190,7 @@ text-align: center;
 .main-btn {
 display: block;
 margin: 0 auto;
-background: #4d5ae5;
+background-color: #4d5ae5;
 color: #fff;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -202,13 +204,13 @@ height: 56px;
 border-radius:4px;
 padding: 16px 32px;
 border: none;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn:hover, 
 .main-btn:focus {
 background: #404bbf;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /*info секція 2*/
