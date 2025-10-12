@@ -362,6 +362,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .page-team .social-link:hover { background-color: #404bbf; }
 .page-footer .social-link:hover { background-color: #31d0aa; }
 
+.page-footer .social-link:focus {
+  background-color: #31d0aa;
+}
 /* Our Portfolio секція 4*/
 
 .portfolio-item {
